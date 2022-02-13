@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+"- 아이디어
+재검토(무드 보드 -> OOTD, CANVA API vs 내그림 올리기) : 무드보드 확정
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- 기획단계(Tools)
+  스키마 디자인 - dbdiagram
+  와이어프레임 - figma
+  회의 툴 - trello, slack, googleMeet, googleSheet
+  버전관리 - git, github
 
-## Available Scripts
+- 기능 구현
+  회원가입 - email 인증, 소셜로그인(gmail, github)
+  회원탈퇴
+  회원정보 수정 (이름, 닉네임, 비밀번호, 이메일)
+  로그인/로그아웃
 
-In the project directory, you can run:
+마이 대시보드
+이미지 검색(핀터레스트 or 픽사베이 APIs)
+파일 업로드(이미지)
+메모(text) 추가
+SNS 공유기능(자랑하기)
+내 대시보드(공개/비공개) - 공개 게시글 최대 10개까지 보여주기
 
-### `npm start`
+반응형 웹으로 제작하기
+다크모드(white/dark)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 개발단계(Tools)
+  React.js
+  React-Router
+  Redux
+  [미정]CSS 후보 => Material-UI, StyledComponents, PostCSS, TailwindCSS
+  fabric.js => 자동 저장 기능 ?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Node.js
+express
+dotenv
+axios
+swquelize
+MySQL
+JSON-Server
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 데드라인 : ~ 2022.02.18"
